@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Spring Boot 3 with AOT Processing</title>
+
+		<link rel="stylesheet" href="reveal.js/dist/reset.css">
+		<link rel="stylesheet" href="reveal.js/dist/reveal.css">
+		<link rel="stylesheet" href="reveal.js/dist/theme/simple.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css">
+
+		<link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
+
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown="markdown/main.md"
+						 data-separator="^]]]"
+						 data-separator-vertical="^---"
+						 data-separator-notes="^Notes:"
+						 data-charset="utf8"
+						 data-background-position="top"
+						 data-background-size="200px"
+						 data-background-image="images/bg.svg">
+				</section>
+				<section data-markdown="markdown/0-intro.md"
+						 data-separator="^]]]"
+						 data-separator-vertical="^---"
+						 data-separator-notes="^Notes:"
+						 data-charset="utf8"
+						 data-background-position="top"
+						 data-background-size="100px"
+						 data-background-image="images/bg.svg">
+				</section>
+				<section data-markdown="markdown/1-warmer.md"
+						 data-separator="^]]]"
+						 data-separator-vertical="^---"
+						 data-separator-notes="^Notes:"
+						 data-charset="utf-8"
+						 data-background-size="100px"
+						 data-background-position="top"
+						 data-background-image="images/bg.svg">
+				</section>
+				<section data-markdown="markdown/2-reframe.md"
+						 data-separator="^]]]"
+						 data-separator-vertical="^---"
+						 data-separator-notes="^Notes:"
+						 data-charset="utf-8"
+						 data-background-size="100px"
+						 data-background-position="top"
+						 data-background-image="images/bg.svg">
+				</section>
+				<section data-markdown="markdown/3-rational.md"
+						 data-separator="^]]]"
+						 data-separator-vertical="^---"
+						 data-separator-notes="^Notes:"
+						 data-charset="utf-8"
+						 data-background-size="100px"
+						 data-background-position="top"
+						 data-background-image="images/bg.svg">
+				</section>
+				<section data-markdown="markdown/4-impact.md"
+						 data-separator="^]]]"
+						 data-separator-vertical="^---"
+						 data-separator-notes="^Notes:"
+						 data-charset="utf-8"
+						 data-background-size="100px"
+						 data-background-position="top"
+						 data-background-image="images/bg.svg">
+				</section>
+				<section data-markdown="markdown/5-new-way.md"
+						 data-separator="^]]]"
+						 data-separator-vertical="^---"
+						 data-separator-notes="^Notes:"
+						 data-charset="utf-8"
+						 data-background-size="100px"
+						 data-background-position="top"
+						 data-background-image="images/bg.svg">
+				</section>
+				<section data-markdown="markdown/6-solution.md"
+						 data-separator="^]]]"
+						 data-separator-vertical="^---"
+						 data-separator-notes="^Notes:"
+						 data-charset="utf-8"
+						 data-background-size="100px"
+						 data-background-position="top"
+						 data-background-image="images/bg.svg">
+				</section>
+				<section data-markdown="markdown/thanks.md"
+						 data-separator="^]]]"
+						 data-separator-vertical="^---"
+						 data-separator-notes="^Notes:"
+						 data-charset="utf-8"
+						 data-background-size="100px"
+						 data-background-position="top"
+						 data-background-image="images/bg.svg">
+				</section>
+			</div>
+		</div>
+
+		<script src="reveal.js/dist/reveal.js"></script>
+		<script src="reveal.js/plugin/markdown/markdown.js"></script>
+		<script src="reveal.js/plugin/highlight/highlight.js"></script>
+		<script src="reveal.js/plugin/notes/notes.js"></script>
+
+		<script>
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				hash: false,
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+
+			});
+		</script>
+		<script type="text/javascript">
+			const startDate = new Date("12/20/2021");
+			const today = new Date();
+			const Difference_In_Time = today.getTime() - startDate.getTime();
+			const Difference_In_Days = Difference_In_Time / (1000 * 3600 * 24);
+
+			Reveal.addEventListener( 'ready', function() {
+				document.getElementById("the-number-of-days").innerHTML = '' + Math.ceil(Difference_In_Days);
+			}, false );
+		</script>
+	</body>
+</html>
