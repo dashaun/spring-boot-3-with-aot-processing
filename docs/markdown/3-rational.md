@@ -29,6 +29,14 @@ curl https://start.spring.io/starter.tgz \
 
 ---
 
+## Build Time
+
+```bash
+mvnd clean package
+```
+
+---
+
 ### Startup Time
 
 ```bash
