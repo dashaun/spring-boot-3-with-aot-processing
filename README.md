@@ -1,6 +1,6 @@
 # Spring Boot 3 with AOT Processing
 
-## [Originally Presented at SpringOne Tour Tel Aviv 2022](https://youtu.be/H6HwoWZtngs)
+## [![Originally Presented at SpringOne Tour Tel Aviv 2022](docs/images/open.png)](https://youtu.be/H6HwoWZtngs)
 
 
 ## Quickstart
